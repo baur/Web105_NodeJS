@@ -1,20 +1,17 @@
-
 var UserDB = {
-
-    userName: 'Test',
+	userName: 'Test',
 	connect: function() {
 		console.log('db connect success');
 	},
 
 	getUserName: function() {
-		return userName;
+		return this.userName;
 	},
 
 	setUserName: function(text) {
-		userName = text;
+		this.userName = text;
 	},
 
-	start: function () {UserDB.connect()
+	start: function () {this.connect()
 	}
-
 }

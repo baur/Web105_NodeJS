@@ -24,3 +24,5 @@ promt
 confirm
 
 !a - is a error
+
+self = this
