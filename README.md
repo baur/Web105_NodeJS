@@ -26,3 +26,5 @@ confirm
 !a - is a error
 
 self = this
+
+$("h2").on('click',function(){$("ul").slideToggle()})
